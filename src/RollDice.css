@@ -1,0 +1,23 @@
+.RollDice {
+  width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.RollDice button {
+  width: 60%;
+  height: 70px;
+  margin-top: 50px;
+  color: white;
+  background-color: rgb(27, 112, 27);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.RollDice button.disabled {
+  background-color: rgb(14, 54, 14);
+  cursor: not-allowed;
+}
